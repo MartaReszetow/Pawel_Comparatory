@@ -28,6 +28,7 @@ public class MainOfertaSprzedazy {
                 lista.forEach(System.out::println);
                 System.out.println();
             } else if (komenda.equalsIgnoreCase("sortuj malejąco")) {
+                
                 Collections.sort(lista, new OfertaComparator(true));
             } else if (komenda.equalsIgnoreCase("sortuj rosnąco")) {
                 Collections.sort(lista, new OfertaComparator(false));
