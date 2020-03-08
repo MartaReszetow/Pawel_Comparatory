@@ -4,14 +4,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
+
 
 import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
 
-    public class RecipiesResponse {
+    public class RecipesResponse {
     private List<RecipeResult> results;
     private String baseUri;
     private int offset;
